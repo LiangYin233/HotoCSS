@@ -1,0 +1,126 @@
+/* Color */
+/* Components */
+.hoto-is-use-navbar {
+  margin-top: 4rem; }
+
+.hoto-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.07);
+  backdrop-filter: blur(26px); }
+  .hoto-navbar .hoto-navbar-title {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    text-decoration: none;
+    color: black; }
+
+.hoto-btn {
+  height: 3rem;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #3B96FF;
+  border-radius: 16px;
+  border: 2px solid #3B96FF;
+  cursor: pointer;
+  transition-duration: 0.4s; }
+
+.hoto-btn:hover {
+  color: #3B96FF;
+  background-color: white; }
+
+.hoto-btn:active {
+  border: 2px solid #F8F8F8;
+  color: #B2B2B2;
+  background-color: #F8F8F8; }
+
+/* Styles */
+body {
+  padding: 20px;
+  margin: 0px;
+  border-width: 0px; }
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0px;
+  font-weight: bolder; }
+
+h2 {
+  font-size: 2.08rem;
+  font-weight: bolder;
+  margin: 0px; }
+
+h3 {
+  font-size: 1.66rem;
+  font-weight: bolder;
+  margin: 0px; }
+
+h4 {
+  font-size: 1.625rem;
+  font-weight: bolder;
+  margin: 0px; }
+
+h5 {
+  font-size: 1.45rem;
+  font-weight: bolder;
+  margin: 0px; }
+
+h6 {
+  font-size: 1.25rem;
+  font-weight: bolder;
+  margin: 0px; }
+
+.hoto-color-light-blue {
+  color: #3B96FF !important; }
+
+.hoto-color-medium-blue {
+  color: #0066EB !important; }
+
+.hoto-color-dark-blue {
+  color: #0049AA !important; }
+
+.hoto-color-light-green {
+  color: #2AE61D !important; }
+
+.hoto-color-medium-green {
+  color: #1FDB3E !important; }
+
+.hoto-color-dark-green {
+  color: #1DCF41 !important; }
+
+.hoto-color-light-yellow {
+  color: #FFD83A !important; }
+
+.hoto-color-medium-yellow {
+  color: #F8BD34 !important; }
+
+.hoto-color-dark-yellow {
+  color: #DFAA2E !important; }
+
+.hoto-color-light-purple {
+  color: #DB87FF !important; }
+
+.hoto-color-medium-purple {
+  color: #C86BEF !important; }
+
+.hoto-color-dark-purple {
+  color: #B127F5 !important; }
+
+.hoto-color-light-red {
+  color: #FF5858 !important; }
+
+.hoto-color-medium-red {
+  color: #F62A2A !important; }
+
+.hoto-color-dark-red {
+  color: #E11818 !important; }
+
+/*# sourceMappingURL=hoto.css.map */

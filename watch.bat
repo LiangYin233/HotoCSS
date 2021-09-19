@@ -1,0 +1,1 @@
+sass --watch ./src/hoto.scss:./dist/hoto.css

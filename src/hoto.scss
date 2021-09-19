@@ -1,0 +1,27 @@
+/* Color */
+
+$l-blue: #3B96FF;
+$m-blue: #0066EB;
+$d-blue: #0049AA;
+$l-green: #2AE61D;
+$m-green: #1FDB3E;
+$d-green: #1DCF41;
+$l-yellow: #FFD83A;
+$m-yellow: #F8BD34;
+$d-yellow: #DFAA2E;
+$l-purple: #DB87FF;
+$m-purple: #C86BEF;
+$d-purple: #B127F5;
+$l-red: #FF5858;
+$m-red: #F62A2A;
+$d-red: #E11818;
+
+/* Components */
+
+@import "./components/navbar/index.scss";
+@import "./components/button/index.scss";
+
+/* Styles */
+
+@import "./styles/global/index.scss";
+@import "./styles/var/color.scss";
