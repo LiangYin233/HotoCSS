@@ -1,0 +1,21 @@
+.hoto-card {
+    width: 23rem;
+    height: 20.5rem;
+    background-color: white;
+    img {
+        width: 100%;
+        border-radius: 0.5rem;
+        height: auto;
+    }
+    .hoto-card-panel {
+        width: 85%;
+        margin: 0 auto;
+        padding: 1rem;
+        position: relative;
+        top: -7.5rem;
+        border-radius: 1rem;
+        backdrop-filter: blur(1.3rem);
+        background-color: rgba(#FFFFFF, 0.8);
+        box-shadow: 0px 2px 18px rgba(#000000, 0.07);
+    }
+}

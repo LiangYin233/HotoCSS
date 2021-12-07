@@ -1,0 +1,33 @@
+.hoto-input-checkbox {
+    margin-bottom: 0.5rem;
+    input {
+        position: absolute;
+        clip: rect(0, 0, 0, 0);
+    }
+    label {
+        margin-right: 5px;
+        font-family: 'OUR-FONT-ICON';
+        transition: all 0.3s ease;
+    }
+    input+label {
+        background-color: white;
+        border-radius: 0.5rem;
+        padding: 1px;
+        border: 2px solid $hoto-gray;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 20px;
+    }
+    input:checked+label {
+        border-color: $m-blue;
+        background-color: $m-blue;
+    }
+    input:checked+label:after {
+        color: white;
+        font-size: 0.8rem;
+        content: "";
+    }
+}

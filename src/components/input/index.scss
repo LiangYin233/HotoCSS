@@ -1,0 +1,28 @@
+@import "./range.scss";
+@import "./checkbox.scss";
+@import "./radio.scss";
+.hoto-input {
+    padding: 14px;
+    box-sizing: border-box;
+    border: $hoto-gray solid 2px;
+    border-radius: 0.25rem;
+    outline: none;
+    transition-duration: 0.2s;
+}
+
+.hoto-input::placeholder {
+    font-weight: 550;
+    color: $hoto-gray;
+}
+
+.hoto-input:focus {
+    border-color: $m-blue;
+}
+
+.hoto-input-wrong {
+    border-color: #FB3535 !important;
+}
+
+.hoto-input-wrong::placeholder {
+    color: #FB3535 !important;
+}

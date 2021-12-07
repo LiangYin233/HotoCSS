@@ -1,0 +1,1 @@
+The use of "OUR-FONT-ICON" has been authorized by the original author.

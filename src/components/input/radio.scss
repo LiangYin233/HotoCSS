@@ -1,0 +1,25 @@
+.hoto-input-radio {
+    margin-bottom: 0.5rem;
+    input {
+        position: absolute;
+        clip: rect(0, 0, 0, 0);
+    }
+    input[type=radio]+label::before {
+        transition: all 0.2s ease;
+        content: "\a0";
+        display: inline-block;
+        vertical-align: 0px;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        border-radius: 50%;
+        border: 2px solid $hoto-gray;
+        line-height: 20px;
+        padding: 3px;
+    }
+    input[type="radio"]:checked+label::before {
+        background-color: $m-blue;
+        padding: 3px;
+        background-clip: content-box;
+    }
+}

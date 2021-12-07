@@ -1,25 +1,40 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'OUR-FONT-ICON';
+    src: url('./fonts/OUR-FONT-ICON/OUR-FONT-ICON.ttf?5gzcad') format('truetype'), url('./fonts/OUR-FONT-ICON/OUR-FONT-ICON.woff?5gzcad') format('woff'), url('./fonts/OUR-FONT-ICON/OUR-FONT-ICON.svg?5gzcad#OUR-FONT-ICON') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
 /* Color */
 
-$l-blue: #3B96FF;
-$m-blue: #0066EB;
-$d-blue: #0049AA;
-$l-green: #2AE61D;
-$m-green: #1FDB3E;
-$d-green: #1DCF41;
+$l-blue: #A6D3FD;
+$m-blue: #5395FD;
+$d-blue: #4A71B4;
+$l-green: #5E9045;
+$m-green: #3F7311;
+$d-green: #29341C;
 $l-yellow: #FFD83A;
 $m-yellow: #F8BD34;
-$d-yellow: #DFAA2E;
+$d-yellow: #FFB217;
 $l-purple: #DB87FF;
-$m-purple: #C86BEF;
-$d-purple: #B127F5;
-$l-red: #FF5858;
-$m-red: #F62A2A;
-$d-red: #E11818;
+$m-purple: #9167A1;
+$d-purple: #70458A;
+$l-red: #FF3E3E;
+$m-red: #EE1818;
+$d-red: #D90000;
+$hoto-gray: #EFEFEF;
 
 /* Components */
 
+@import "./components/card/index.scss";
 @import "./components/navbar/index.scss";
 @import "./components/button/index.scss";
+@import "./components/input/index.scss";
+@import "./components/tips/index.scss";
 
 /* Styles */
 

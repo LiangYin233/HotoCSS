@@ -1,21 +1,22 @@
 .hoto-btn {
-    height: 3rem;
+    height: 2.6rem;
     padding: 10px;
     font-weight: bold;
     color: white;
-    background-color: $l-blue;
-    border-radius: 16px;
-    border: 2px solid $l-blue;
+    background-color: $m-blue;
+    border-radius: 0.25rem;
+    border: 2px solid $m-blue;
     cursor: pointer;
     transition-duration: 0.4s;
 }
 
 .hoto-btn:hover {
-    color: $l-blue;
+    color: $m-blue;
     background-color: white;
 }
 
 .hoto-btn:active {
+    transform: scale(0.98, 0.98);
     border: 2px solid #F8F8F8;
     color: #B2B2B2;
     background-color: #F8F8F8;

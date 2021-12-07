@@ -1,8 +1,10 @@
 # HotoCSS
-Hoto is a CSS component library.Used Hutong Design.
+Hoto is a CSS component library.
 
-Design for compatibility, design for everyone, design for the future, that's Hutong design.
+Used Huton Design.Design for compatibility, design for everyone, design for the future, that's Huton design.
 
-Of course, this is Hutong Design’s third-party CSS Component Library. [Official CSS Component Library](https://github.com/OUR-Studio-cui-team/connect-UI)
+Of course, this is Huton Design’s third-party CSS Component Library.
 
-Our work was licensed by the author of Hutong Design. You can contact Github Organization Account at @OUR-Studio-cui-team for details.
+Our work was licensed by the author of Huton Design.
+
+You can contact Github Organization Account at @connect-ui for details.
