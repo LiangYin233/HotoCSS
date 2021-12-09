@@ -8,21 +8,18 @@
     border-radius: 0.25rem;
     outline: none;
     transition-duration: 0.2s;
-}
-
-.hoto-input::placeholder {
-    font-weight: 550;
-    color: $hoto-gray;
-}
-
-.hoto-input:focus {
-    border-color: $m-blue;
+    &::placeholder {
+        font-weight: 550;
+        color: $hoto-gray;
+    }
+    &:focus {
+        border-color: $m-blue;
+    }
 }
 
 .hoto-input-wrong {
     border-color: #FB3535 !important;
-}
-
-.hoto-input-wrong::placeholder {
-    color: #FB3535 !important;
+    &::placeholder {
+        color: #FB3535 !important;
+    }
 }

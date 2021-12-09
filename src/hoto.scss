@@ -30,11 +30,14 @@ $hoto-gray: #EFEFEF;
 
 /* Components */
 
+@import "./components/dropdown/index.scss";
+@import "./components/modal/index.scss";
 @import "./components/card/index.scss";
 @import "./components/navbar/index.scss";
 @import "./components/button/index.scss";
 @import "./components/input/index.scss";
 @import "./components/tips/index.scss";
+@import "./components/snackbar/index.scss";
 
 /* Styles */
 

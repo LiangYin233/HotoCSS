@@ -1,0 +1,62 @@
+.hoto-dropdown {
+    min-width: 200px;
+    width: 300px;
+    button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid $hoto-gray;
+        border-radius: .5rem;
+        background-color: white;
+        transition-duration: 0.2s;
+        text {
+            font: {
+                size: 1.1rem;
+                weight: 400;
+            }
+        }
+        .hoto-icons {
+            display: flex;
+            flex: 1;
+            justify-content: right;
+            font: {
+                family: 'OUR-FONT-ICON';
+                weight: 300;
+            }
+        }
+        &:hover {
+            border-color: #f5f5f5;
+            background-color: #f5f5f5;
+        }
+        &:active {
+            transform: scale(0.95, 0.95);
+        }
+    }
+    div.hoto-dropdown-list {
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        z-index: 500;
+        width: 300px;
+        position: absolute;
+        margin-top: 5px;
+        border-radius: .5rem;
+        background-color: white;
+        box-shadow: 0px 2px 18px rgba(#000000, 0.07);
+        a {
+            display: block;
+            margin: 10px;
+            padding: 10px;
+            border-radius: .5rem;
+            &:hover {
+                background-color: #f5f5f5;
+            }
+        }
+    }
+    div.hoto-dropdown-show {
+        opacity: 1;
+        transition: all 0.3s ease;
+        visibility: visible !important;
+    }
+}

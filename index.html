@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HotoCSS | 帮助页面</title>
-    <link rel="stylesheet" type="text/css" href="./dist/hoto.css">
+    <link rel="stylesheet" type="text/css" href="./dist/hoto.min.css">
 </head>
 
 <body class="hoto-is-use-navbar">
@@ -14,13 +14,54 @@
         <a href="#" class="hoto-navbar-title">Hoto</a>
     </div>
     <div class="hoto-tips">
-        <span></span> Hoto的开发工作正在进行，欢迎您发现我们的兼容性问题。
+        <span class="hoto-icons"></span> Hoto的开发工作正在进行，欢迎您发现我们的兼容性问题。
     </div>
     <h1>Hoto, </h1>
     <h2>使用互通设计。</h2>
     <p>Hoto is a CSS component library.Used Huton Design.Design for compatibility, design for everyone, design for the future, that's Huton design.Of course, this is Huton Design’s third-party CSS Component Library.Our work was licensed by the author of
         Huton Design. You can contact Github Organization Account at <a href="https://github.com/connect-ui/">@connect-ui</a> for details.</p>
-    <button class="hoto-btn">好耶～！</button>
+    <button class="hoto-btn">互通，好耶</button>
+    <button class="hoto-btn" disabled>互通，好耶</button>
+    <button class="hoto-btn" onclick="hotoSnackbar('testSnackbar')">触发SnackBar</button>
+    <div class="hoto-snackbar">
+        <div id="testSnackbar" class="hoto-snackbar-panel">
+            <span class="hoto-icons"></span> 互通设计，好耶！
+        </div>
+    </div>
+    <button class="hoto-btn" onclick="hotoModal('mod')">触发Modal</button>
+    <div class="hoto-modal" id="mod">
+        <div class="hoto-modal-box">
+            <div class="hoto-modal-dialog">
+                <div class="hoto-modal-header">
+                    <h3 class="hoto-modal-title">标题</h3>
+                    <button class="hoto-btn-icon" onclick="hotoModal('mod')"></button>
+                </div>
+                <div class="hoto-modal-body">
+                    <h5>模态框，好耶！</h5>
+                </div>
+                <div class="hoto-modal-footer">
+                    <button class="hoto-btn" style="margin-right: 5px" onclick="hotoModal('mod')">确定</button>
+                    <button class="hoto-btn" style="width: 25%;background-color: #A6D3FD;" onclick="hotoModal('mod')">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <button class="hoto-btn-icon"></button>
+    <button class="hoto-btn-icon"></button>
+    <button class="hoto-btn-icon"></button>
+    <button class="hoto-btn-icon"></button>
+    <button class="hoto-btn-icon"></button>
+    <br>
+    <br>
+    <button class="hoto-btn-long" style="margin-top: 5px;">
+        <div>
+            <span class="hoto-icons"></span>
+            <text>了解关于我们发布的公告</text>
+        </div>
+        <span class="hoto-icons"></span>
+    </button>
     <br>
     <br>
     <input type="text" class="hoto-input" placeholder="用户名">
@@ -37,6 +78,18 @@
     </div>
     <br>
     <br>
+    <div class="hoto-dropdown">
+        <button onclick="hotoDropdown('dd')">
+            <text>下拉菜单</text>
+            <span class="hoto-icons"></span>
+        </button>
+        <div class="hoto-dropdown-list" id="dd">
+            <a>互通设计</a>
+            <a>好耶</a>
+        </div>
+    </div>
+    <br>
+    <br>
     <h4>谁是受？</h4>
     <div class="hoto-input-radio">
         <input type="radio" id="zuma" name="who">
@@ -48,21 +101,24 @@
     </div>
     <input type="range" class="hoto-input-range">
     <br><br>
-    <div class="hoto-card" style="float: left; margin-right: 5px;">
-        <img src="https://jessegary.github.io/post-images/hutongdesign.png" alt="">
-        <div class="hoto-card-panel">
-            <h3>互通好啊互通美</h3>
-            <h5>互通给我增智慧</h5>
+    <div style="display: flex;flex-wrap: wrap;">
+        <div class="hoto-card" style="margin-right: 5px;">
+            <img src="https://jessegary.github.io/post-images/hutongdesign.png" alt="">
+            <div class="hoto-card-panel">
+                <h3>互通好啊互通美</h3>
+                <h5>互通给我增智慧</h5>
+            </div>
         </div>
-    </div>
-    <div class="hoto-card" style="float: left; margin-right: 5px;">
-        <img src="https://cdn.microsoftstore.com.cn/media/product_long_description/3085-00000/1_0923.jpg" alt="">
-        <div class="hoto-card-panel">
-            <h3>互通好啊互通美</h3>
-            <h5>互通给我增智慧</h5>
+        <div class="hoto-card" style="margin-right: 5px;">
+            <img src="https://cdn.microsoftstore.com.cn/media/product_long_description/3085-00000/1_0923.jpg" alt="">
+            <div class="hoto-card-panel">
+                <h3>互通好啊互通美</h3>
+                <h5>互通给我增智慧</h5>
+            </div>
         </div>
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
+<script src="./dist/hoto.js"></script>
 
 </html>

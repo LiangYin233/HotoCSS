@@ -41,15 +41,13 @@ p {
     line-height: 1.6rem;
 }
 
-a {
+a[href] {
     color: $l-blue;
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited {
-    color: $d-blue;
+    &:hover {
+        text-decoration: underline;
+    }
+    &:visited {
+        color: $d-blue;
+    }
 }
