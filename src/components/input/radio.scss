@@ -18,7 +18,7 @@
         padding: 3px;
     }
     input[type="radio"]:checked+label::before {
-        background-color: $m-blue;
+        background-color: white;
         padding: 3px;
         background-clip: content-box;
     }

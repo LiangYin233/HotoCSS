@@ -13,7 +13,7 @@ module.exports = function(grunt) {
         },
         watch: {
             files: ['src/**/*.scss', '**/*.html', 'src/**/*.js'],
-            tasks: ['copy', 'sass', 'postcss', 'cssmin'],
+            tasks: ['copy', 'sass',  'cssmin','postcss'],
         },
         sass: {
             dist: {
@@ -53,6 +53,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('@lodder/grunt-postcss');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.registerTask('default', ['copy', 'sass', 'postcss', 'cssmin']);
+    grunt.registerTask('default', ['copy', 'sass',  'cssmin','postcss']);
 
 };

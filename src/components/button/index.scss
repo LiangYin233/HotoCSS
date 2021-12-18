@@ -54,17 +54,16 @@
     border: 1px solid $hoto-gray;
     border-radius: 0.5rem;
     transition-duration: 0.2s;
-    div {
-        span.hoto-icons {
-            user-select: none;
-            font-size: 1.3rem;
-            font-weight: 400;
-            margin-right: 1rem;
-        }
-        text {
-            vertical-align: 2px;
-            font-size: 1.1rem;
-        }
+    span.hoto-btn-long-main-icon {
+        flex: 0 !important;
+        user-select: none;
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-right: 1rem;
+        text-align: left;
+    }
+    text {
+        font-size: 1.1rem;
     }
     span.hoto-icons {
         user-select: none;

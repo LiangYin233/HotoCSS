@@ -14,9 +14,9 @@
 $l-blue: #A6D3FD;
 $m-blue: #5395FD;
 $d-blue: #4A71B4;
-$l-green: #5E9045;
-$m-green: #3F7311;
-$d-green: #29341C;
+$l-green: #1FCC7C;
+$m-green: #2F9C41;
+$d-green: #256D40;
 $l-yellow: #FFD83A;
 $m-yellow: #F8BD34;
 $d-yellow: #FFB217;
@@ -32,11 +32,13 @@ $hoto-gray: #EFEFEF;
 
 @import "./components/dropdown/index.scss";
 @import "./components/modal/index.scss";
+@import "./components/sidebar/index.scss";
 @import "./components/card/index.scss";
 @import "./components/navbar/index.scss";
 @import "./components/button/index.scss";
 @import "./components/input/index.scss";
 @import "./components/tips/index.scss";
+@import "./components/table/index.scss";
 @import "./components/snackbar/index.scss";
 
 /* Styles */
