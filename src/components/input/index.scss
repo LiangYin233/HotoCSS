@@ -3,6 +3,7 @@
 @import "./radio.scss";
 .hoto-input {
     padding: 14px;
+    height: 48px;
     box-sizing: border-box;
     border: $hoto-gray solid 2px;
     border-radius: 0.25rem;
@@ -21,5 +22,20 @@
     border-color: #FB3535 !important;
     &::placeholder {
         color: #FB3535 !important;
+    }
+}
+
+.hoto-input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    input {
+        border-radius: 0.25rem 0px 0px 0.25rem !important;
+        border-right-width: 0px;
+    }
+    button {
+        height: 48px;
+        text-align: center;
+        border-radius: 0px 0.25rem 0.25rem 0px !important;
     }
 }

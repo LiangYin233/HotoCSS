@@ -31,3 +31,37 @@
         content: "";
     }
 }
+
+.hoto-input-switch {
+    outline: none;
+    appearance: none;
+    position: relative;
+    width: 55px;
+    height: 25px;
+    background: #B2B2B2;
+    border-radius: 1rem;
+    transition: border-color .3s, background-color .3s;
+    cursor: pointer;
+    &::after {
+        content: '';
+        display: inline-block;
+        width: 0.9rem;
+        height: 0.9rem;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0px 2px 18px rgba(#000000, 0.07);
+        transition: .4s;
+        top: 5px;
+        position: absolute;
+        left: 5px;
+    }
+    &:checked {
+        background: $m-blue;
+    }
+    &:checked::after {
+        content: '';
+        position: absolute;
+        left: 65%;
+        top: 5px;
+    }
+}

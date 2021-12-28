@@ -1,5 +1,5 @@
 .hoto-input-range {
-    -webkit-appearance: none;
+    appearance: none;
     overflow: hidden;
     width: 15rem;
     height: 16px;
@@ -18,7 +18,7 @@
     border-color: white;
     border-radius: 50%;
     box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.07);
-    -webkit-appearance: none;
+    appearance: none;
 }
 
 .hoto-input-range::-moz-range-thumb {
@@ -29,7 +29,7 @@
     border-color: white;
     border-radius: 50%;
     box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.07);
-    -webkit-appearance: none;
+    appearance: none;
 }
 
 .hoto-input-range::-webkit-slider-runnable-track {
