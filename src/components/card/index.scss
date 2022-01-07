@@ -1,5 +1,24 @@
 .hoto-card {
     width: 23rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 2px 18px rgba(#000000, 0.07);
+    img {
+        width: 100%;
+        height: auto;
+        border-top-right-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+    }
+    .hoto-card-panel {
+        margin: 25px;
+        button.hoto-btn {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+}
+
+.hoto-info-card {
+    width: 23rem;
     height: 13rem;
     background-color: white;
     img {
@@ -8,7 +27,7 @@
         border-radius: 0.5rem;
         height: auto;
     }
-    .hoto-card-panel {
+    .hoto-info-card-panel {
         width: 85%;
         margin: 0 auto;
         padding: 1rem;

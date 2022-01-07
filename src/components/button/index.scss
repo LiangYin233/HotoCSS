@@ -76,6 +76,6 @@
         background-color: #f5f5f5;
     }
     &:active {
-        transform: scale(0.99, 0.99);
+        border-color: $m-blue;
     }
 }

@@ -1,0 +1,19 @@
+/* Part of the reference from the animate.css https://github.com/animate-css/animate.css/ */
+
+@keyframes slideInUp {
+    from {
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.hoto-ani-slideInUp {
+    animation: {
+        name: slideInUp;
+        duration: 0.4s;
+        timing-function: cubic-bezier(.4, .01, 0, .97);
+    }
+}

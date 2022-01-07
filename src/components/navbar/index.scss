@@ -19,6 +19,7 @@
     backdrop-filter: blur(1.3rem);
     .hoto-navbar-title {
         display: flex;
+        user-select: none;
         align-items: center;
         font-size: 35px;
         font-weight: 350;

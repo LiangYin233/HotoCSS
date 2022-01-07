@@ -1,5 +1,6 @@
 @import "./page.scss";
 @import "./text.scss";
+@import "./animation.scss";
 @import "./accessibility.scss";
 * {
     outline: none;
@@ -7,4 +8,5 @@
 
 .hoto-icons {
     font-family: "OUR-FONT-ICON";
+    user-select: none;
 }

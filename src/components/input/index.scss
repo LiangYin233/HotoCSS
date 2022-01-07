@@ -39,3 +39,19 @@
         border-radius: 0px 0.25rem 0.25rem 0px !important;
     }
 }
+
+.hoto-textarea {
+    border: 2px solid $hoto-gray;
+    border-radius: 0.5rem;
+    width: 50%;
+    padding: 14px;
+    resize: none;
+    transition-duration: 0.4s;
+    font-family: sans-serif;
+    &:focus {
+        border-color: $m-blue;
+    }
+    &::placeholder {
+        font-family: sans-serif;
+    }
+}
