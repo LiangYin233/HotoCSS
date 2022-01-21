@@ -13,13 +13,13 @@
         height: 20px;
         margin-right: 5px;
         border-radius: 50%;
-        border: 2px solid $hoto-gray;
+        border: 2px solid $themeBorderColor;
         line-height: 20px;
         padding: 3px;
     }
     input[type="radio"]:checked+label::before {
-        border-color: $m-blue;
-        background-color: $m-blue;
+        border-color: $themeMainColor;
+        background-color: $themeMainColor;
         background-clip: content-box;
     }
 }

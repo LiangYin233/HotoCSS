@@ -10,10 +10,10 @@
         transition: all 0.3s ease;
     }
     input+label {
-        background-color: white;
+        background-color: $themeBgColor;
         border-radius: 0.5rem;
         padding: 1px;
-        border: 2px solid $hoto-gray;
+        border: 2px solid $themeBorderColor;
         width: 20px;
         height: 20px;
         display: inline-block;
@@ -22,8 +22,8 @@
         line-height: 20px;
     }
     input:checked+label {
-        border-color: $m-blue;
-        background-color: $m-blue;
+        border-color: $themeMainColor;
+        background-color: $themeMainColor;
     }
     input:checked+label:after {
         color: white;
@@ -56,7 +56,7 @@
         left: 5px;
     }
     &:checked {
-        background: $m-blue;
+        background: $themeMainColor;
     }
     &:checked::after {
         content: '';

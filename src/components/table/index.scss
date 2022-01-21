@@ -7,19 +7,19 @@ table.hoto-table {
         tr {
             th {
                 padding: .8rem;
-                border-top: 2px solid $hoto-gray;
+                border-top: 2px solid $themeBorderColor;
                 &:first-child {
                     border: {
-                        left: 2px solid $hoto-gray;
-                        top: 2px solid $hoto-gray;
-                        right: 1px solid $hoto-gray;
+                        left: 2px solid $themeBorderColor;
+                        top: 2px solid $themeBorderColor;
+                        right: 1px solid $themeBorderColor;
                         top-left-radius: .5rem;
                     }
                 }
                 &:last-child {
                     border: {
-                        right: 2px solid $hoto-gray;
-                        top: 2px solid $hoto-gray;
+                        right: 2px solid $themeBorderColor;
+                        top: 2px solid $themeBorderColor;
                         top-right-radius: .5rem;
                     }
                 }
@@ -29,25 +29,25 @@ table.hoto-table {
     tbody {
         tr {
             th {
-                border-right: 1px solid $hoto-gray;
+                border-right: 1px solid $themeBorderColor;
             }
             td,
             th {
-                border-top: 1px solid $hoto-gray;
+                border-top: 1px solid $themeBorderColor;
                 padding: .8rem;
             }
             *:first-child {
-                border-left: 2px solid $hoto-gray;
+                border-left: 2px solid $themeBorderColor;
             }
             *:last-child {
-                border-right: 2px solid $hoto-gray;
+                border-right: 2px solid $themeBorderColor;
             }
             &:nth-child(2n-1) {
                 background-color: #f9f9fa;
             }
             &:last-child {
                 * {
-                    border-bottom: 2px solid $hoto-gray;
+                    border-bottom: 2px solid $themeBorderColor;
                 }
                 *:first-child {
                     border-bottom-left-radius: .5rem;

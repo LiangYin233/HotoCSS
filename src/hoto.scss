@@ -28,6 +28,12 @@ $m-red: #EE1818;
 $d-red: #D90000;
 $hoto-gray: #EFEFEF;
 
+/* Theme Settings */
+
+$themeMainColor: $m-blue;
+$themeBgColor: white; // If you want to change to the Nadir,use #FFFEF9.
+$themeBorderColor: $hoto-gray;
+
 /* Components */
 
 @import "./components/dropdown/index.scss";

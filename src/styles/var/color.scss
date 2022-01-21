@@ -1,59 +1,18 @@
-.hoto-color-light-blue {
-    color: $l-blue !important;
-}
-
-.hoto-color-medium-blue {
-    color: $m-blue !important;
-}
-
-.hoto-color-dark-blue {
-    color: $d-blue !important;
-}
-
-.hoto-color-light-green {
-    color: $l-green !important;
-}
-
-.hoto-color-medium-green {
-    color: $m-green !important;
-}
-
-.hoto-color-dark-green {
-    color: $d-green !important;
-}
-
-.hoto-color-light-yellow {
-    color: $l-yellow !important;
-}
-
-.hoto-color-medium-yellow {
-    color: $m-yellow !important;
-}
-
-.hoto-color-dark-yellow {
-    color: $d-yellow !important;
-}
-
-.hoto-color-light-purple {
-    color: $l-purple !important;
-}
-
-.hoto-color-medium-purple {
-    color: $m-purple !important;
-}
-
-.hoto-color-dark-purple {
-    color: $d-purple !important;
-}
-
-.hoto-color-light-red {
-    color: $l-red !important;
-}
-
-.hoto-color-medium-red {
-    color: $m-red !important;
-}
-
-.hoto-color-dark-red {
-    color: $d-red !important;
+:root {
+    --hoto-l-blue: $l-blue;
+    --hoto-m-blue: $m-blue;
+    --hoto-d-blue: $d-blue;
+    --hoto-l-green: $l-green;
+    --hoto-m-green: $m-green;
+    --hoto-d-green: $d-green;
+    --hoto-l-yellow: $l-yellow;
+    --hoto-m-yellow: $m-yellow;
+    --hoto-d-yellow: $d-yellow;
+    --hoto-l-purple: $l-purple;
+    --hoto-m-purple: $m-purple;
+    --hoto-d-purple: $d-purple;
+    --hoto-l-red: $l-red;
+    --hoto-m-red: $m-red;
+    --hoto-d-red: $d-red;
+    --hoto-gray: $hoto-gray;
 }
