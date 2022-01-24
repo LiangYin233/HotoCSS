@@ -3,7 +3,7 @@
 
 Hoto is a CSS component library.
 
-Used Huton Design. Design for compatibility, design for everyone, design for the future, that's Huton design.
+Used Huton Design. "Beauty promotes efficiency and provides a comfortable world for all", that's Huton design.
 
 Of course, this is Huton Design’s third-party CSS Component Library.
 
